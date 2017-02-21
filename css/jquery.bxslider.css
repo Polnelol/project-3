@@ -1,0 +1,13 @@
+* {
+ box-sizing: border-box;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.bx-wrapper {
+  width: 1170px;
+  height: 145px;
+  margin: 0 auto;
+  position: relative;

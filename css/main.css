@@ -1,0 +1,671 @@
+@font-face {
+  font-family: "SegoeUIRegular";
+  src: url("../fonts/SegoeUIRegular/SegoeUIRegular.eot");
+  src: url("../fonts/SegoeUIRegular/SegoeUIRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/SegoeUIRegular/SegoeUIRegular.woff") format("woff"), url("../fonts/SegoeUIRegular/SegoeUIRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "SegoeUIBold";
+  src: url("../fonts/SegoeUIBold/SegoeUIBold.eot");
+  src: url("../fonts/SegoeUIBold/SegoeUIBold.eot?#iefix") format("embedded-opentype"), url("../fonts/SegoeUIBold/SegoeUIBold.woff") format("woff"), url("../fonts/SegoeUIBold/SegoeUIBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "SegoeUILight";
+  src: url("../fonts/SegoeUILight/SegoeUILight.eot");
+  src: url("../fonts/SegoeUILight/SegoeUILight.eot?#iefix") format("embedded-opentype"), url("../fonts/SegoeUILight/SegoeUILight.woff") format("woff"), url("../fonts/SegoeUILight/SegoeUILight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "SegoeUISemiBold";
+  src: url("../fonts/SegoeUISemiBold/SegoeUISemiBold.eot");
+  src: url("../fonts/SegoeUISemiBold/SegoeUISemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/SegoeUISemiBold/SegoeUISemiBold.woff") format("woff"), url("../fonts/SegoeUISemiBold/SegoeUISemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+body {
+  margin: 0;
+  background-color: #fff;
+  color: #fff;
+  font-family: 'SegoeUILight'; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.container {
+  width: 1170px;
+  margin: 0 auto; }
+
+.main-header {
+  background: url("../img/header-bg.png") no-repeat center;
+  background-size: cover;
+  height: 800px;
+  overflow: hidden; }
+
+.main-header .nav-block {
+  position: fixed;
+  width: 100%;
+  height: 150px;
+  background-color: rgba(57, 68, 75, 0.95);
+  z-index: 100; }
+
+.main-header span {
+  color: #4BCAFF; }
+
+.main-header .header-title {
+  margin-top: 400px;
+  font-size: 42px;
+  line-height: 65px;
+  text-transform: uppercase;
+  text-align: center; }
+
+.main-header .title-1 {
+  background: rgba(59, 69, 77, 0.8);
+  width: 710px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  font-size: 42px;
+  font-weight: normal; }
+
+.main-header .title-2 {
+  background: rgba(59, 69, 77, 0.8);
+  width: 990px;
+  margin: 0 auto;
+  font-size: 42px;
+  font-weight: normal; }
+
+.main-header .nav-block .logo {
+  width: 140px;
+  float: left;
+  margin-top: 60px;
+  font-size: 30px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-family: "SegoeUIBold"; }
+
+.main-header .nav-block .main-navigation {
+  width: 540px;
+  float: right;
+  margin-top: 60px; }
+
+#mobile-nav {
+  display: none;
+  width: 30px;
+  float: right;
+  margin-top: 55px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 28px; }
+
+.main-navigation ul {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  list-style: none;
+  text-align: center; }
+
+.main-navigation li {
+  display: inline-block;
+  margin-right: 11.5px;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "SegoeUIBold"; }
+
+.main-navigation li:last-child {
+  margin-right: 0; }
+
+.main-navigation a {
+  display: block;
+  padding: 10px 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  transition: 0.3s; }
+
+.main-navigation a:hover {
+  color: #4BCAFF; }
+
+.main-navigation a.active {
+  box-shadow: 0px 0px 0px 2px #4bcaff;
+  color: #4BCAFF; }
+
+.services-block {
+  height: 390px;
+  padding-top: 65px;
+  background-color: #4BCAFF;
+  color: #fff;
+  font-family: "SegoeUILight";
+  font-size: 30px;
+  line-height: 24px;
+  text-transform: uppercase; }
+
+.services-block .main-title {
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0;
+  position: relative; }
+
+.services-block .main-title:before {
+  position: absolute;
+  content: "";
+  width: 45px;
+  height: 2px;
+  background-color: #fff;
+  bottom: -10px; }
+
+.services-block .item-block {
+  margin-top: 45px;
+  font-size: 0; }
+
+.services-block .item {
+  display: inline-block;
+  width: 270px;
+  margin-right: 30px; }
+
+.services-block .item:last-child {
+  margin-right: 0; }
+
+.services-block i {
+  margin-bottom: 23px;
+  font-size: 55px; }
+
+.services-block .item-title {
+  margin: 0;
+  margin-bottom: 17px;
+  font-size: 24px;
+  line-height: 24px;
+  font-family: 'SegoeUISemiBold'; }
+
+.services-block .item-indent {
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: none;
+  font-family: 'SegoeUISemiBold'; }
+
+.portfolio-block {
+  height: 800px;
+  padding-top: 65px;
+  background-color: #fff;
+  color: #515F67;
+  font-family: "SegoeUILight";
+  font-size: 30px;
+  line-height: 24px;
+  text-transform: uppercase; }
+
+.portfolio-block .main-title {
+  font-size: 30px;
+  font-weight: normal;
+  position: relative;
+  float: left;
+  margin: 0;
+  margin-bottom: 90px; }
+
+.portfolio-block .main-title:before {
+  position: absolute;
+  content: "";
+  width: 45px;
+  height: 2px;
+  background-color: #515F67;
+  bottom: -10px; }
+
+.portfolio-block .btn-block {
+  width: 545px;
+  float: right;
+  line-height: 0; }
+
+.portfolio-block button {
+  margin-right: 13.5px;
+  padding: 0 15px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: 'SegoeUIBold';
+  color: #515f67;
+  line-height: 26px;
+  transition: 0.3s; }
+
+.portfolio-block button:hover {
+  color: #4BCAFF; }
+
+.portfolio-block button.is-checked {
+  color: #4BCAFF !important;
+  box-shadow: 0px 0px 0px 2px #4bcaff; }
+
+.portfolio-block button:last-child {
+  margin-right: 0; }
+
+.portfolio-block .isotope {
+  clear: both;
+  font-size: 0;
+  text-align: center; }
+
+.portfolio-block .item {
+  display: inline-block;
+  width: 270px;
+  height: 270px;
+  margin: 0 11.25px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  background: rgba(151, 151, 151, 0.5);
+  background-size: cover; }
+
+.portfolio-block .item-1 {
+  background: rgba(151, 151, 151, 0.1) url("../img/item-1.png"); }
+
+.portfolio-block .item-2 {
+  background: rgba(151, 151, 151, 0.1) url("../img/item-2.png"); }
+
+.portfolio-block .item-3 {
+  background: rgba(151, 151, 151, 0.1) url("../img/item-3.png"); }
+
+.portfolio-block .item-4 {
+  background: rgba(151, 151, 151, 0.1) url("../img/item-4.png"); }
+
+.portfolio-block .item-5 {
+  background: rgba(151, 151, 151, 0.1) url("../img/item-5.png"); }
+
+.portfolio-block .item-6 {
+  background: rgba(151, 151, 151, 0.1) url("../img/item-6.png"); }
+
+.portfolio-block .item-7 {
+  background: rgba(151, 151, 151, 0.1) url("../img/item-7.png"); }
+
+.portfolio-block .item-8 {
+  background: rgba(151, 151, 151, 0.1) url("../img/item-8.png"); }
+
+.default-section-block {
+  height: 475px;
+  padding-top: 65px;
+  background-color: #515F67;
+  color: #fff;
+  font-family: "SegoeUILight";
+  font-size: 30px;
+  line-height: 24px;
+  text-transform: uppercase; }
+
+.default-section-block .main-title {
+  position: relative;
+  font-size: 30px;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 50px; }
+
+.default-section-block .main-title:before {
+  position: absolute;
+  content: "";
+  width: 45px;
+  height: 2px;
+  background-color: #fff;
+  bottom: -10px; }
+
+.default-section-block .left-block {
+  width: 470px;
+  float: left; }
+
+.default-section-block .indent-1 {
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: none;
+  font-family: 'SegoeUIRegular'; }
+
+.default-section-block .indent-2 {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: none;
+  font-family: 'SegoeUIRegular';
+  margin-bottom: 30px; }
+
+.default-section-block button {
+  padding: 11px 35px;
+  background: none;
+  border: 2px solid #353F46;
+  color: #353F46;
+  text-transform: uppercase;
+  font-family: 'SegoeUIBold';
+  cursor: pointer;
+  transition: 0.3s; }
+
+.default-section-block button:hover {
+  color: #EFEFEF;
+  border: 2px solid #EFEFEF; }
+
+.default-section-block .right-block {
+  width: 560px;
+  height: 315px;
+  float: right;
+  background-color: #EFEFEF;
+  color: #000; }
+
+.twitter-block {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #4BCAFF;
+  color: #fff;
+  font-family: "SegoeUILight";
+  font-size: 30px;
+  line-height: 24px;
+  text-transform: uppercase; }
+
+.twitter-block .main-title {
+  position: relative;
+  float: left;
+  margin-top: 0;
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 50px; }
+
+.twitter-block .main-title:before {
+  position: absolute;
+  content: "";
+  width: 45px;
+  height: 2px;
+  background-color: #fff;
+  bottom: -10px; }
+
+.twitter-block a {
+  float: right;
+  display: block;
+  color: #fff;
+  transition: 0.3s; }
+
+.twitter-block a:hover {
+  color: #41ABE1;
+  font-size: 50px; }
+
+.twitter-block .indent {
+  margin-bottom: 30px;
+  font-size: 28px;
+  text-transform: none;
+  clear: both; }
+
+.twitter-block .name {
+  text-transform: none; }
+
+.twitter-block span {
+  font-family: 'SegoeUIRegular'; }
+
+.who-is-block {
+  background: url("../img/who-is-bg.png") no-repeat center;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 170px;
+  color: #fff;
+  font-family: "SegoeUILight";
+  font-size: 30px;
+  line-height: 24px;
+  text-transform: uppercase; }
+
+.who-is-block .main-title {
+  position: relative;
+  margin-top: 0;
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 50px; }
+
+.who-is-block .main-title:before {
+  position: absolute;
+  content: "";
+  width: 45px;
+  height: 2px;
+  background-color: #fff;
+  bottom: -10px; }
+
+.who-is-block .left-block {
+  width: 575px;
+  float: left;
+  margin-right: 30px; }
+
+.who-is-block .indent-1 {
+  margin-top: 0;
+  margin-bottom: 35px;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: 'SegoeUIRegular';
+  text-transform: none; }
+
+.who-is-block .indent-2 {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: 'SegoeUIRegular';
+  text-transform: none; }
+
+.who-is-block .right-block {
+  width: 555px;
+  float: right; }
+
+.who-is-block .social-block {
+  width: 336px; }
+
+.who-is-block a {
+  cursor: pointer;
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+  border: 2px solid #fff;
+  color: #fff;
+  margin-right: 20px;
+  text-align: center;
+  transition: 0.3s; }
+
+.who-is-block a:hover {
+  color: #8E98A0; }
+
+.who-is-block a:last-child {
+  margin-right: 0; }
+
+.who-is-block i {
+  line-height: 65px; }
+
+.testimonials-block {
+  padding-top: 80px;
+  padding-bottom: 75px;
+  background-color: #fff;
+  color: #515F67;
+  font-family: "SegoeUILight";
+  font-size: 30px;
+  line-height: 24px;
+  text-transform: uppercase; }
+
+.testimonials-block .main-title {
+  position: relative;
+  margin-top: 0;
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 50px; }
+
+.testimonials-block .main-title:before {
+  position: absolute;
+  content: "";
+  width: 45px;
+  height: 2px;
+  background-color: #515F67;
+  bottom: -10px; }
+
+.testimonials-block .testimonials-indent {
+  margin-top: 0;
+  font-size: 28px;
+  line-height: 50px;
+  text-transform: none;
+  position: relative; }
+
+.testimonials-block .testimonials-indent:before {
+  position: absolute;
+  content: "";
+  width: 32px;
+  height: 26px;
+  right: 35px;
+  top: 0;
+  background: url("../img/testimonials-pseudo.png"); }
+
+.testimonials-block .testimonials-name {
+  margin-top: 20px;
+  color: #4BCAFF;
+  font-size: 14px;
+  text-transform: none;
+  font-family: 'SegoeUIBold';
+  z-index: 1000000; }
+
+.testimonials-block .bx-wrapper {
+  width: 1170px;
+  height: 145px;
+  margin: 0 auto;
+  position: relative; }
+
+.testimonials-block ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.contact-block {
+  background: url(../img/contact-bg.png) no-repeat center;
+  background-size: cover;
+  padding-top: 75px;
+  padding-bottom: 85px;
+  color: #fff;
+  font-family: "SegoeUILight";
+  font-size: 30px;
+  line-height: 24px;
+  text-transform: uppercase; }
+
+.contact-block .main-title {
+  position: relative;
+  margin-bottom: 50px; }
+
+.contact-block .main-title:before {
+  position: absolute;
+  content: "";
+  width: 45px;
+  height: 2px;
+  background-color: #fff;
+  bottom: -10px; }
+
+.contact-block label {
+  float: left;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: 'SegoeUIBold';
+  clear: both; }
+
+.contact-block .input-wrapper {
+  width: 470px;
+  float: left; }
+
+.input-wrapper input {
+  width: 465px;
+  height: 55px;
+  padding: 5px 5px;
+  margin-bottom: 35px;
+  font-size: 25px;
+  outline: none;
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+  font-family: 'SegoeUIRegular'; }
+
+.contact-inf {
+  width: 550px;
+  float: right;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: none;
+  margin-top: 20px;
+  font-family: 'SegoeUISemiBold'; }
+
+.inf {
+  list-style: none;
+  margin-top: 35px; }
+
+.inf ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+textarea {
+  width: 100%;
+  margin-bottom: 40px;
+  padding: 5px 5px;
+  font-size: 25px;
+  outline: none;
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+  font-family: 'SegoeUIRegular';
+  resize: none; }
+
+.form-button {
+  width: 370px;
+  padding: 20px 0;
+  font-size: 14px;
+  font-family: 'SegoeUIBold';
+  text-transform: uppercase;
+  background: #4BCAFF;
+  color: #fff;
+  border: none;
+  transition: 0.3s;
+  cursor: pointer; }
+
+.form-button:hover {
+  background: #fff;
+  color: #4BCAFF; }
+
+.main-footer {
+  height: 170px;
+  background-color: #353F47; }
+
+.main-footer .footer-nav {
+  width: 325px;
+  float: left;
+  margin-top: 70px; }
+
+.main-footer ul {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  list-style: none;
+  text-align: center; }
+
+.main-footer li {
+  position: relative;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 24px;
+  font-family: 'SegoeUISemiBold'; }
+
+.main-footer li:before {
+  width: 2px;
+  height: 15px;
+  position: absolute;
+  content: "";
+  background-color: #515F67;
+  right: 0;
+  top: 15px; }
+
+.main-footer li:last-child:before {
+  content: none; }
+
+.main-footer a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #515F67;
+  transition: 0.3s; }
+
+.main-footer a:hover {
+  color: #fff; }
+
+.main-footer .copyright {
+  width: 50px;
+  float: right;
+  margin-top: 80px;
+  color: #515F67; }
